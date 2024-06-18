@@ -1,5 +1,3 @@
-package roselo.main;
-
 import roselo.framework.Start;
 import roselo.model.AccionDos;
 import roselo.model.AccionUno;
@@ -8,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        var start = new Start(List.of(new AccionUno(), new AccionDos()));
+        var start = new Start();
         start.init();
     }
 }
