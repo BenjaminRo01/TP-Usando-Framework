@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        var start = new Start();
+        var start = new Start("/config.json");
         start.init();
     }
 }

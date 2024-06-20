@@ -1,0 +1,4 @@
+{
+  "acciones": ["roselo.model.AccionUno", "roselo.model.AccionDos", "roselo.model.AccionTres"],
+  "max-threads": 5
+}
